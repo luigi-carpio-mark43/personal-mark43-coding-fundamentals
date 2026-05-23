@@ -4,11 +4,18 @@
 
 ## Prerequisites
 
-- **JDK 17+** — verify with `java -version`
-- **Maven 3.6+** — verify with `mvn -version`
+You'll need these tools installed and on your system `PATH`:
+
+- **JDK 17+** — verify with `java -version` (Java + SQL chapters)
+- **Maven 3.6+** — verify with `mvn -version` (Java + SQL chapters)
+- **Node.js 18+** — verify with `node -v` and `npm -v` (TypeScript chapters)
 - A text editor or IDE (IntelliJ IDEA Community is free and what Mark43 uses)
 
-If you don't have these installed, ask your tutor (Claude) to walk you through the setup for Windows.
+> **On a Mark43-issued machine?** All of these are available through the **Mark43 Company Portal** — search for *JDK*, *Maven*, *Node*, *IntelliJ*, *VS Code*, *Python*, etc. and install from there. The Company Portal is the canonical source for dev tools.
+>
+> After installing, **open a new terminal window** so `PATH` picks up the new tools — existing terminals won't see them.
+
+If something doesn't work after installing, ask your tutor (Claude) to walk you through verifying the setup.
 
 ## How an Exercise Works
 

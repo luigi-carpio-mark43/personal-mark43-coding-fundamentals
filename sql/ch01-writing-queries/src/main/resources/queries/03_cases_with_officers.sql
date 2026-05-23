@@ -1,0 +1,23 @@
+-- Exercise 3: Cases with assigned officers (JOIN)
+--
+-- Goal: Return active cases in department 42 along with the
+--       assigned officer's name and badge number.
+--       Order by case created_date_utc descending (newest first).
+--
+-- Select these columns (in this order):
+--   c.case_number, c.status, p.first_name, p.last_name, p.badge_number
+--
+-- Tables and join:
+--   - case_entity c
+--   - JOIN personnel_record p ON c.assigned_officer_id = p.id
+--
+-- Filters:
+--   - c.department_id = 42
+--   - c.is_deleted = false
+--
+-- Heads-up: A plain JOIN (inner join) only returns cases that HAVE an
+-- assigned officer. Cases where assigned_officer_id is NULL are excluded.
+-- We'll use LEFT JOIN to include them in the next exercise.
+
+-- Write your query below (replace this placeholder):
+SELECT 1 WHERE false;

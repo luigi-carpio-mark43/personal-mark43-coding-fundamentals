@@ -1,0 +1,21 @@
+-- Exercise 2: Q1 2024 submitted reports
+--
+-- Goal: Return reports in department 42 that were SUBMITTED for approval
+--       and created during Q1 2024 (Jan 1 through end of March).
+--       Order by created_date_utc ascending (oldest first).
+--
+-- Select these columns (in this order):
+--   id, report_number, report_title
+--
+-- Filters:
+--   - department_id = 42
+--   - is_deleted = false
+--   - approval_status = 'SUBMITTED'
+--   - created_date_utc >= '2024-01-01'
+--   - created_date_utc <  '2024-04-01'   (less-than, not less-than-or-equal)
+--
+-- Tip: The half-open range "[Jan 1, Apr 1)" is the standard way Mark43
+--      filters date ranges. It includes all of March without spilling into April.
+
+-- Write your query below (replace this placeholder):
+SELECT 1 WHERE false;

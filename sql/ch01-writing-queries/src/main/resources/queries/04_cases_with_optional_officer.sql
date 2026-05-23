@@ -1,0 +1,23 @@
+-- Exercise 4: All active cases, with optional assigned officer (LEFT JOIN)
+--
+-- Goal: Return ALL active cases in department 42 -- including those without
+--       an assigned officer. When no officer is assigned, the name fields
+--       should come back as NULL.
+--       Order by case created_date_utc descending.
+--
+-- Select these columns (in this order):
+--   c.case_number, c.status, p.first_name, p.last_name
+--
+-- Tables and join:
+--   - case_entity c
+--   - LEFT JOIN personnel_record p ON c.assigned_officer_id = p.id
+--
+-- Filters:
+--   - c.department_id = 42
+--   - c.is_deleted = false
+--
+-- Tip: LEFT JOIN keeps every row from the LEFT table (case_entity).
+-- When there's no matching officer, p.first_name / p.last_name are NULL.
+
+-- Write your query below (replace this placeholder):
+SELECT 1 WHERE false;

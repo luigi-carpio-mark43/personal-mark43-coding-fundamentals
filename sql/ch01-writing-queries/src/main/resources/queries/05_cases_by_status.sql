@@ -1,0 +1,22 @@
+-- Exercise 5: Case count grouped by status
+--
+-- Goal: For department 42's active cases, return one row per distinct
+--       status with the number of cases in that status.
+--       Order by status ascending (alphabetical).
+--
+-- Select these columns (in this order):
+--   status, COUNT(*) AS case_count
+--
+-- Filters:
+--   - department_id = 42
+--   - is_deleted = false
+--
+-- Group by:
+--   - status
+--
+-- Tip: GROUP BY collapses rows that share the same value of the grouped
+-- column. COUNT(*) counts the rows in each group. Alias the count column
+-- as `case_count` so the result has a friendly column name.
+
+-- Write your query below (replace this placeholder):
+SELECT 1 WHERE false;

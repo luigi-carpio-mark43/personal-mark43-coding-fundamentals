@@ -1,0 +1,24 @@
+-- Exercise 6: Top 3 most recent open cases
+--
+-- Goal: Return the 3 most recent OPEN cases for department 42,
+--       ordered by created_date_utc descending. Useful for a dashboard
+--       "what should I work on today?" view.
+--
+-- Select these columns (in this order):
+--   id, case_number, case_title, created_date_utc
+--
+-- Filters:
+--   - department_id = 42
+--   - is_deleted = false
+--   - status = 'OPEN'
+--
+-- Sorting + pagination:
+--   - ORDER BY created_date_utc DESC
+--   - LIMIT 3
+--
+-- Tip: LIMIT N caps the result set to N rows. In Mark43, this is how
+-- paginated dashboards work -- LIMIT 25 OFFSET 0 for page 1,
+-- LIMIT 25 OFFSET 25 for page 2, and so on.
+
+-- Write your query below (replace this placeholder):
+SELECT 1 WHERE false;
